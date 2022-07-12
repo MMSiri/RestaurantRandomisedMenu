@@ -1,0 +1,45 @@
+﻿<Window x:Class="RestaurantRandomisedMenu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RestaurantRandomisedMenu"
+        mc:Ignorable="d"
+        Title="Welcome to Sloppy Joe's Budget House o' Discount Sandwiches" Height="350" Width="550">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Name="item1" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18"/>
+        <TextBlock Name="price1" HorizontalAlignment="Right" Margin="0,12,10,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Column="1"/>
+
+        <TextBlock Name="item2" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Row="1"/>
+        <TextBlock Name="price2" HorizontalAlignment="Right" Margin="0,12,10,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+
+        <TextBlock Name="item3" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Row="2"/>
+        <TextBlock Name="price3" HorizontalAlignment="Right" Margin="0,12,10,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="2"/>
+
+        <TextBlock Name="item4" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Row="3"/>
+        <TextBlock Name="price4" HorizontalAlignment="Right" Margin="0,12,10,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="3"/>
+
+        <TextBlock Name="item5" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Row="4"/>
+        <TextBlock Name="price5" HorizontalAlignment="Right" Margin="0,12,10,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="4"/>
+
+        <TextBlock Name="item6" HorizontalAlignment="Left" Margin="10,12,0,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Row="5"/>
+        <TextBlock Name="price6" HorizontalAlignment="Right" Margin="0,12,10,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Column="1" Grid.Row="5"/>
+
+        <TextBlock Name="guacamole" FontStyle="Italic" VerticalAlignment="Bottom" HorizontalAlignment="right" Margin="0,12,10,0" TextWrapping="Wrap" Text="TextBlock" FontSize="18" Grid.Row="6" Grid.ColumnSpan="2" Width="250"/>
+
+    </Grid>
+</Window>
